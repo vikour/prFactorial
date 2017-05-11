@@ -51,7 +51,21 @@ public class FactorialTest {
     public void factorailEntrada2Salida1() {
         assertEquals(2, Factorial.calcular(2));
     }
-    
+
+    @Test
+    public void factorailEntrada3Salida1() {
+        assertEquals(6, Factorial.calcular(3));
+    }
+
+    @Test
+    public void factorailEntrada4Salida1() {
+        assertEquals(24, Factorial.calcular(4));
+    }
+
+    @Test
+    public void factorailEntrada5Salida1() {
+        assertEquals(120, Factorial.calcular(5));
+    }
     
     
 }
