@@ -39,7 +39,17 @@ public class FactorialTest {
 
     @Test
     public void factorailEntrada0Salida1() {
-        assertEquals(new Integer(1), Factorial.calcular(0));
+        assertEquals(1, Factorial.calcular(0));
+    }
+
+    @Test
+    public void factorailEntrada1Salida1() {
+        assertEquals(1, Factorial.calcular(0));
+    }
+
+    @Test
+    public void factorailEntrada2Salida1() {
+        assertEquals(2, Factorial.calcular(0));
     }
     
     
